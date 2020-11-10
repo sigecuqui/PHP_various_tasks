@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="209d0e8f-7f41-4250-b627-c894b0bf3c18" name="Default Changelist" comment="game. form">
+    <list default="true" id="209d0e8f-7f41-4250-b627-c894b0bf3c18" name="Default Changelist" comment="arrays">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -45,7 +45,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604905457267</updated>
-      <workItem from="1604905458325" duration="16177000" />
+      <workItem from="1604905458325" duration="17383000" />
+      <workItem from="1604999357049" duration="1128000" />
+      <workItem from="1605012094541" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="game. form">
       <created>1604929805812</created>
@@ -54,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604929805813</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="arrays">
+      <created>1604932796458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604932796458</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -62,9 +71,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="game. form" />
-    <option name="LAST_COMMIT_MESSAGE" value="game. form" />
+    <MESSAGE value="arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrays" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1605002672048">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605002672048" />
     <state x="520" y="239" key="Github.ShareDialog" timestamp="1604926405470">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -73,9 +87,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1604905468724" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1604929809544">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1604932798029">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604929809544" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604932798029" />
   </component>
 </project>

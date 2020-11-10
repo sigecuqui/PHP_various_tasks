@@ -1,43 +1,39 @@
 <?php
 
-$arr_1 = [2, 7, 4, 9, 6, 1, 6, 3];
+$sentence = 'Labai skanu, labai gardu UGACIAGA';
 
-$arr_2 = [2, 7, 9, 1, 6, 1, 6, 3];
-
-$is_special = '';
-foreach ($arr_1 as $index => $value) {
-    print "index is: $index and value is: $value </br>";
-
-    if ($index % 2 === 0) {
-        if ($value % 2 !== 0) {
-            $is_special = 'array not special';
-            break;
-        } else {
-            $is_special = 'array is special';
-        }
-    } else {
-        if ($value % 2 === 0) {
-            $is_special = 'array not special';
-            break;
-        }
-    }
+function remove_vowels($str)
+{
+    $vowels = ["a", "e", "i", "o", "u", "y"];
+    return str_ireplace($vowels, "", $str);
 }
 
-var_dump($arr_1);
-print $is_special;
+var_dump($sentence);
+$new_sentence = remove_vowels($sentence);
+var_dump($new_sentence);
 
+////2. remove vowels reference
+
+function remove_vowels_ref(&$str)
+{
+    $vowels = ["a", "e", "i", "o", "u", "y"];
+    $str = str_ireplace($vowels, "", $str);
+}
+
+var_dump($sentence);
+remove_vowels_ref($sentence);
+var_dump($sentence);
 ?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Lucky</title>
+    <title>Tasks</title>
     <style>
-
-</head>
-<body>
-</body>
-</html>
+        </head>
+        <body>
+        </body>
+        </html >
 
 
 
