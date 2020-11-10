@@ -1,28 +1,17 @@
 <?php
+$words = ['krakamule', 'runkelis', 'ciuciundra','baba', 'kulbe', 'sasiska', 'miau', 'kate'];
 
-$sentence = 'Labai skanu, labai gardu UGACIAGA';
-
-function remove_vowels($str)
-{
-    $vowels = ["a", "e", "i", "o", "u", "y"];
-    return str_ireplace($vowels, "", $str);
+function find_four_letters (&$words) {
+    foreach ($words as $key => $word) {
+        if (strlen($word)  !== 4 ) {
+            array_splice($words, array_search($word,$words),1);
+        }
+    }
 }
+find_four_letters($different_words);
+var_dump($different_words);
 
-var_dump($sentence);
-$new_sentence = remove_vowels($sentence);
-var_dump($new_sentence);
 
-////2. remove vowels reference
-
-function remove_vowels_ref(&$str)
-{
-    $vowels = ["a", "e", "i", "o", "u", "y"];
-    $str = str_ireplace($vowels, "", $str);
-}
-
-var_dump($sentence);
-remove_vowels_ref($sentence);
-var_dump($sentence);
 ?>
 <!doctype html>
 <html lang="en">

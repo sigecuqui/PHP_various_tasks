@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="209d0e8f-7f41-4250-b627-c894b0bf3c18" name="Default Changelist" comment="arrays">
+    <list default="true" id="209d0e8f-7f41-4250-b627-c894b0bf3c18" name="Default Changelist" comment="tasks. vowels. replace">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -47,7 +65,7 @@
       <updated>1604905457267</updated>
       <workItem from="1604905458325" duration="17383000" />
       <workItem from="1604999357049" duration="1128000" />
-      <workItem from="1605012094541" duration="407000" />
+      <workItem from="1605012094541" duration="1600000" />
     </task>
     <task id="LOCAL-00001" summary="game. form">
       <created>1604929805812</created>
@@ -63,16 +81,35 @@
       <option name="project" value="LOCAL" />
       <updated>1604932796458</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tasks. vowels. replace">
+      <created>1605012591404</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605012591404</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="game. form" />
     <MESSAGE value="arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrays" />
+    <MESSAGE value="tasks. vowels. replace" />
+    <option name="LAST_COMMIT_MESSAGE" value="tasks. vowels. replace" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1605002672048">
@@ -87,9 +124,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1604905468724" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1604932798029">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1605012593595">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604932798029" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605012593595" />
   </component>
 </project>
