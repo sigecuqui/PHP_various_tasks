@@ -1,28 +1,44 @@
 <?php
 
-$array = [3, 6, 7, 10, 5];
-
-function multiply_by_length($array)
+/**
+ * Separates odd and even numbers, puts in separate arrays
+ *
+ * @param $array
+ * @return array[]
+ */
+function partition($array)
 {
-    $generated = [];
-    $length = count($array);
-    foreach ($array as $arr) {
-        $generated[] = (int)$arr * $length;
+$evens = [];
+$odds = [];
+foreach ($array as $value) {
+    if ($value % 2 === 0) {
+        $evens[] = $value;
+    } else {
+        $odds[] = $value;
     }
-    return $generated;
 }
 
-function multiply_by_length_ref(&$array)
+    return ['evens' => $evens, 'odds' => $odds];
+
+/**
+ * Changes original array by separating odd and even numbers
+ *
+ * @param $array
+ */
+function partition_ref(&$array)
 {
+    $evens = [];
+    $odds = [];
     foreach ($array as &$value) {
-        $value *= count($array);
+        if ($value % 2 === 0) {
+            $evens[] = $value;
+        } else {
+            $odds[] = $value;
+        }
     }
 
+    $array = ['evens' => $evens, 'odds' => $odds];
 }
-
-multiply_by_length_ref($array);
-var_dump($array);
-
 ?>
 <!doctype html>
 <html lang="en">
