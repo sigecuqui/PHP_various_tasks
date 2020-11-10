@@ -12,8 +12,16 @@ function multiply_by_length($array)
     return $generated;
 }
 
-$new_array = multiply_by_length($array);
-var_dump($new_array);
+function multiply_by_length_ref(&$array)
+{
+    foreach ($array as &$value) {
+        $value *= count($array);
+    }
+
+}
+
+multiply_by_length_ref($array);
+var_dump($array);
 
 ?>
 <!doctype html>
