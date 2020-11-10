@@ -1,16 +1,19 @@
 <?php
-$words = ['krakamule', 'runkelis', 'ciuciundra','baba', 'kulbe', 'sasiska', 'miau', 'kate'];
 
-function find_four_letters (&$words) {
-    foreach ($words as $key => $word) {
-        if (strlen($word)  !== 4 ) {
-            array_splice($words, array_search($word,$words),1);
-        }
+$array = [3, 6, 7, 10, 5];
+
+function multiply_by_length($array)
+{
+    $generated = [];
+    $length = count($array);
+    foreach ($array as $arr) {
+        $generated[] = (int)$arr * $length;
     }
+    return $generated;
 }
-find_four_letters($different_words);
-var_dump($different_words);
 
+$new_array = multiply_by_length($array);
+var_dump($new_array);
 
 ?>
 <!doctype html>
@@ -19,10 +22,18 @@ var_dump($different_words);
     <meta charset="UTF-8">
     <title>Tasks</title>
     <style>
-        </head>
-        <body>
-        </body>
-        </html >
+        <
+        /
+        head >
+        < body >
+        <
+
+        /
+        body >
+        <
+
+        /
+        html >
 
 
 
