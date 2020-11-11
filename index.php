@@ -1,63 +1,38 @@
 <?php
 
-/**
- * Separates odd and even numbers, puts in separate arrays
- *
- * @param $array
- * @return array[]
- */
-function partition($array)
-{
-$evens = [];
-$odds = [];
-foreach ($array as $value) {
-    if ($value % 2 === 0) {
-        $evens[] = $value;
-    } else {
-        $odds[] = $value;
-    }
-}
+$people = ['Antanina', 'Bzegosz', 'Pampalomira', 'Sklermanta', 'Belzebubijus', 'Lachudrija'];
 
-    return ['evens' => $evens, 'odds' => $odds];
-
-/**
- * Changes original array by separating odd and even numbers
- *
- * @param $array
- */
-function partition_ref(&$array)
+function people_likes(array $people): string
 {
-    $evens = [];
-    $odds = [];
-    foreach ($array as &$value) {
-        if ($value % 2 === 0) {
-            $evens[] = $value;
-        } else {
-            $odds[] = $value;
+    $liked = '';
+    if (count($people) == 0) {
+        $liked .= 'No one ';
+    } elseif (count($people) < 4) {
+        foreach ($people as $name) {
+            $liked .= $name . ', ';
         }
+    } elseif (count($people) >= 4) {
+        for ($i = 0; $i < 2; $i++) {
+            $liked .= $people[$i] . ', ';
+        }
+        $liked .= 'and ' . (count($people) - 2) . ' others ';
     }
-
-    $array = ['evens' => $evens, 'odds' => $odds];
+    $liked .= 'likes this';
+    return $liked;
 }
+
+var_dump(people_likes($people));
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tasks</title>
-    <style>
-        <
-        /
-        head >
-        < body >
-        <
+    <title>Title</title>
+</head>
+<body>
 
-        /
-        body >
-        <
-
-        /
-        html >
+</body>
+</html>
 
 
 
