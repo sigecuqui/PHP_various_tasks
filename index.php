@@ -1,27 +1,32 @@
 <?php
 
-$people = ['Antanina', 'Bzegosz', 'Pampalomira', 'Sklermanta', 'Belzebubijus', 'Lachudrija'];
+$user_inputs = [
+    ["catr", "blue", "skt", "umbrells", "paddy"],
+    ["it", "is", "find"],
+    ["aprinl", "showrs", "bring", "may", "flowers"],
+    ['weird', 'indicr', 'moment', 'starry', 'wind', 'skies'],
+];
 
-function people_likes(array $people): string
-{
-    $liked = '';
-    if (count($people) == 0) {
-        $liked .= 'No one ';
-    } elseif (count($people) < 4) {
-        foreach ($people as $name) {
-            $liked .= $name . ', ';
-        }
-    } elseif (count($people) >= 4) {
-        for ($i = 0; $i < 2; $i++) {
-            $liked .= $people[$i] . ', ';
-        }
-        $liked .= 'and ' . (count($people) - 2) . ' others ';
+$correct_texts = [
+    ["cat", "blue", "sky", "umbrella", "paddy"],
+    ["it", "is", "fine"],
+    ["april", "showers", "bring", "may", "flowers"],
+    ['weird', 'indict', 'moment', 'starry', 'wind', 'skies'],
+];
+
+function check_typing($user_array, $correct_array) {
+    $array = [];
+
+    for ($i = 0; $i < count($user_array); $i++) {
+        if ($user_array[$i] === $correct_array[$i]) {
+            $array[] = 1;
+        } else $array[] = -1;
     }
-    $liked .= 'likes this';
-    return $liked;
+
+    return $array;
 }
 
-var_dump(people_likes($people));
+var_dump(check_typing($user_inputs[3], $correct_texts[3]));
 ?>
 <!DOCTYPE html>
 <html lang="en">

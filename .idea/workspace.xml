@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="209d0e8f-7f41-4250-b627-c894b0bf3c18" name="Default Changelist" comment="tasks. partition">
+    <list default="true" id="209d0e8f-7f41-4250-b627-c894b0bf3c18" name="Default Changelist" comment="facebook likes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -66,7 +66,7 @@
       <workItem from="1604905458325" duration="17383000" />
       <workItem from="1604999357049" duration="1128000" />
       <workItem from="1605012094541" duration="6803000" />
-      <workItem from="1605097453111" duration="1742000" />
+      <workItem from="1605097453111" duration="4825000" />
     </task>
     <task id="LOCAL-00001" summary="game. form">
       <created>1604929805812</created>
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605019019631</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="facebook likes">
+      <created>1605099395923</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605099395923</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +150,8 @@
     <MESSAGE value="tasks. multiply by length" />
     <MESSAGE value="tasks. multiply by length with ref" />
     <MESSAGE value="tasks. partition" />
-    <option name="LAST_COMMIT_MESSAGE" value="tasks. partition" />
+    <MESSAGE value="facebook likes" />
+    <option name="LAST_COMMIT_MESSAGE" value="facebook likes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1605019800475">
@@ -158,9 +166,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1604905468724" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1605019020897">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1605099397552">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605019020897" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605099397552" />
+    <state x="0" y="0" width="587" height="680" key="find.popup" timestamp="1605099116051">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" width="587" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1605099116051" />
   </component>
 </project>
