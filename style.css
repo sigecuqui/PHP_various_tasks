@@ -1,0 +1,148 @@
+* {
+    font-family: Bahnschrift;
+    box-sizing: border-box;
+}
+
+/* navigation */
+nav {
+    margin: 20px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    margin: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+/* index */
+.body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.teams_div {
+    display: flex;
+    justify-content: center;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid orangered;
+    border-radius: 50%;
+    background-color: rgba(255, 69, 0, 0.5);
+    box-shadow: 5px 5px 5px 0 black;
+}
+
+.team_name {
+    margin: 10px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.logos_div {
+    display: flex;
+
+}
+
+.time {
+    display: flex;
+    justify-content: space-around;
+}
+
+.location {
+    text-align: center;
+    font-size: 25px;
+}
+
+.title_2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.time > p {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.score {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* about */
+
+.about_main {
+    display: flex;
+    justify-content: center;
+}
+
+.team-info {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin: 20px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 20px;
+}
+
+.player {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.coach {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    color: red;
+}
+
+/* form */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    color: black;
+}
+
+button {
+    color: black;
+    cursor: pointer;
+}

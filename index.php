@@ -1,47 +1,44 @@
 <?php
+require 'functions.php';
 
-$user_inputs = [
-    ["catr", "blue", "skt", "umbrells", "paddy"],
-    ["it", "is", "find"],
-    ["aprinl", "showrs", "bring", "may", "flowers"],
-    ['weird', 'indicr', 'moment', 'starry', 'wind', 'skies'],
-];
-
-$correct_texts = [
-    ["cat", "blue", "sky", "umbrella", "paddy"],
-    ["it", "is", "fine"],
-    ["april", "showers", "bring", "may", "flowers"],
-    ['weird', 'indict', 'moment', 'starry', 'wind', 'skies'],
-];
-
-function check_typing($user_array, $correct_array) {
-    $array = [];
-
-    for ($i = 0; $i < count($user_array); $i++) {
-        if ($user_array[$i] === $correct_array[$i]) {
-            $array[] = 1;
-        } else $array[] = -1;
-    }
-
-    return $array;
-}
-
-var_dump(check_typing($user_inputs[3], $correct_texts[3]));
+$match = generate_match();
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
+<body class="body">
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.php">HOME PAGE</a></li>
+            <li><a href="about.php">ABOUT</a></li>
+            <li><a href="contact_us.php">CONTACT US</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1 class="title">KAMUOLIO ŽAIDIMO RUNGTYNIŲ SEZONAS</h1>
+    <section>
+        <div class="time">
+            <p><?php print $match['date']; ?></p>
+            <p><?php print $match['time']; ?></p>
+        </div>
+        <p class="location"><?php print $match['location']; ?></p>
+        <h2 class="title_2">ŽAIDĖJŲ GRUPUOTĖS</h2>
+        <article class="teams_div">
+            <?php foreach ($match['teams'] as $team): ?>
+                <div class="team">
+                    <img class="logo" src="/logos/img-<?php print $team['team_logo'] ;?>.svg" alt="logos">
+                    <p class="team_name"><?php print $team['name']; ?></p>
+                </div>
+            <?php endforeach; ?>
+        </article>
+        <p class="score"><?php print $match['result']; ?></p>
+    </section>
+</main>
 </body>
 </html>
-
-
-
-
-
-
-
