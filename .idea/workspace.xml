@@ -19,14 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="209d0e8f-7f41-4250-b627-c894b0bf3c18" name="Default Changelist" comment="check arrays values">
-      <change afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_us.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="209d0e8f-7f41-4250-b627-c894b0bf3c18" name="Default Changelist" comment="Komandu page'as">
+      <change afterPath="$PROJECT_DIR$/statistics.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact_us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -84,6 +85,10 @@
       <workItem from="1605270021518" duration="8421000" />
       <workItem from="1605459581548" duration="12000" />
       <workItem from="1605529465893" duration="10067000" />
+      <workItem from="1605614638339" duration="6380000" />
+      <workItem from="1605702264588" duration="7649000" />
+      <workItem from="1606135026522" duration="3291000" />
+      <workItem from="1606216132833" duration="6679000" />
     </task>
     <task id="LOCAL-00001" summary="game. form">
       <created>1604929805812</created>
@@ -148,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605102836914</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Komandu page'as">
+      <created>1605614887160</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605614887160</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,25 +188,26 @@
     <MESSAGE value="tasks. partition" />
     <MESSAGE value="facebook likes" />
     <MESSAGE value="check arrays values" />
-    <option name="LAST_COMMIT_MESSAGE" value="check arrays values" />
+    <MESSAGE value="Komandu page'as" />
+    <option name="LAST_COMMIT_MESSAGE" value="Komandu page'as" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1605596630179">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1606201563999">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605596630179" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606201563999" />
     <state x="520" y="239" key="Github.ShareDialog" timestamp="1604926405470">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="520" y="239" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1604926405470" />
-    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1605529520750">
+    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1605615153715">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1605529520750" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1605102838779">
+    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1605615153715" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1605614889200">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605102838779" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605614889200" />
     <state x="0" y="0" width="587" height="680" key="find.popup" timestamp="1605099116051">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

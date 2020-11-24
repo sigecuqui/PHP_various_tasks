@@ -146,3 +146,25 @@ button {
     color: black;
     cursor: pointer;
 }
+
+.border {
+    border: 2px solid white;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.table_team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}

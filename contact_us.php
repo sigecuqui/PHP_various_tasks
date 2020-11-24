@@ -26,6 +26,7 @@ if (!empty($_POST)) {
             <li><a href="index.php">HOME PAGE</a></li>
             <li><a href="about.php">ABOUT</a></li>
             <li><a href="contact_us.php">CONTACT US</a></li>
+            <li><a href="statistics.php">STATISTICS</a></li>
         </ul>
     </nav>
 </header>

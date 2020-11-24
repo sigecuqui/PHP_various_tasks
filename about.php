@@ -18,15 +18,16 @@ $match = generate_match();
             <li><a href="index.php">NAMŲ PUSLAPIS</a></li>
             <li><a href="about.php">APIE PASISKAITYTI</a></li>
             <li><a href="contact_us.php">SUKONTAKTUOKIME</a></li>
+            <li><a href="statistics.php">STATISTICS</a></li>
         </ul>
     </nav>
 </header>
 <main class="about_main">
-    <?php foreach ($match['teams'] as $team): ?>
+    <?php foreach ($match['team'] as $team): ?>
         <section class="team-info">
             <div class="coach">
-                <h2><?php print $team['name']; ?></h2>
-                <h3 class="red">Trenerukas: <?php print $team['coach']; ?></h3>
+                <h2><?php print $team['team_name']; ?></h2>
+                <h3 class="red">Trenerukas: <?php print $team['coach_name']; ?></h3>
                 <img src="https://c.shld.net/rpx/i/s/pi/mp/25527/prod_2646570004?src=http%3A%2F%2Fwww.onellc.biz%2Fauction_images%2F1200x1200%2F90161.jpg&d=ea3852c26135644e5284b458909d25527fcb3cd7&?hei=64&wid=64&qlt=50"
                      alt="coach">
             </div>

@@ -17,6 +17,7 @@ $match = generate_match();
             <li><a href="index.php">HOME PAGE</a></li>
             <li><a href="about.php">ABOUT</a></li>
             <li><a href="contact_us.php">CONTACT US</a></li>
+            <li><a href="statistics.php">STATISTICS</a></li>
         </ul>
     </nav>
 </header>
@@ -30,10 +31,10 @@ $match = generate_match();
         <p class="location"><?php print $match['location']; ?></p>
         <h2 class="title_2">ŽAIDĖJŲ GRUPUOTĖS</h2>
         <article class="teams_div">
-            <?php foreach ($match['teams'] as $team): ?>
+            <?php foreach ($match['team'] as $team): ?>
                 <div class="team">
                     <img class="logo" src="/logos/img-<?php print $team['team_logo'] ;?>.svg" alt="logos">
-                    <p class="team_name"><?php print $team['name']; ?></p>
+                    <p class="team_name"><?php print $team['team_name']; ?></p>
                 </div>
             <?php endforeach; ?>
         </article>
